@@ -1,0 +1,1 @@
+INSERT INTO users (full_name) VALUES ('Steve Hank'); --throws error
