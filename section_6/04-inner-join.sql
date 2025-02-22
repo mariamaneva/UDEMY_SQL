@@ -1,0 +1,16 @@
+-- aliases are not mandatory, but improve readability
+-- select *
+-- from users as u
+-- inner join addresses as a on u.address_id = a.id;
+
+-- -- another example
+-- select u.id, first_name, last_name, street, house_number, city_id
+-- from users as u
+-- inner join addresses as a on u.address_id = a.id;
+
+
+-- multiple inner joins
+select u.id, first_name, last_name, street, house_number, c.name as city_name
+from users as u
+inner join addresses as a on u.address_id = a.id
+inner join cities as c on a.city_id = c.id;

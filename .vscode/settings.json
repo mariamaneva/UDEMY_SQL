@@ -1,4 +1,9 @@
 {
+  "github.copilot.editor.enableAutoCompletions": false,
+  "[sql]": {
+    "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode",
+    "editor.formatOnSave": false
+  },
   "sqltools.connections": [
     {
       "mysqlOptions": {
@@ -11,7 +16,7 @@
       "driver": "MySQL",
       "name": "mysql1",
       "username": "root",
-      "database": "talently",
+      "database": "company",
       "askForPassword": true
     },
     {
@@ -21,7 +26,7 @@
       "askForPassword": true,
       "driver": "PostgreSQL",
       "name": "postgres",
-      "database": "talently",
+      "database": "my_events",
       "username": "postgres"
     }
   ]

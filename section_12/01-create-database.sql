@@ -1,0 +1,1 @@
+create DATABASE my_events;

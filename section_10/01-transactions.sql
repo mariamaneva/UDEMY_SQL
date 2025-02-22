@@ -1,0 +1,5 @@
+-- BEGINS TRANSACTION FOR THE -SESSION-!
+
+-- START TRANSACTION; --mysql
+BEGIN; -- postgres 
+
